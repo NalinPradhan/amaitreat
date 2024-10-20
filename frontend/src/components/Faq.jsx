@@ -6,19 +6,19 @@ import { Plus } from 'lucide-react';
 
 const tabs = [
   {
-    title: 'What is the level of hygience?',
+    title: 'What is the level of hygiene?',
     description:
-      'UI components can improve UX by providing familiar, consistent interactions that make it easy for users to navigate and interact with an application.',
+      'We use the best quality meat and ingredients to prepare our dishes. We maintain the highest level of hygiene and cleanliness in our kitchen. Our chefs are highly trained and experienced in preparing delicious and healthy dishes. We take great care to ensure that our food is safe and healthy for our customers.',
   },
   {
     title: 'Are all the meat used fresh?',
     description:
-      'Some common challenges include maintaining consistency across different devices and screen sizes, ensuring compatibility with various browsers and assistive technologies, and balancing flexibility with ease of use.',
+      'Yes, all the meat are fresh and sourced from the best suppliers. We take great care to ensure that our meat is of the highest quality and free from any harmful chemicals or preservatives. Our chefs are highly trained and experienced in handling and preparing meat to ensure that it is safe and healthy for our customers.',
   },
   {
     title: 'Where do you deliver?',
     description:
-      'Some common challenges include maintaining consistency across different devices and screen sizes, ensuring compatibility with various browsers and assistive technologies, and balancing flexibility with ease of use.',
+      'We currently deliver to Thimphu, Paro and Phuentsholing. We are working on expanding our delivery services to other parts of the country. Please stay tuned for updates on our delivery services.',
   },
 ];
 
@@ -30,7 +30,7 @@ const Faq = memo(() => {
   };
 
   return (
-    <div className='border-orange-300 bg-slate-100 m-2 rounded-2xl '>
+    <div className='border-orange-300 bg-slate-100 m-2 rounded-2xl lg:ml-64'>
       {tabs.map((tab, index) => (
         <div key={index} className={` ${index !== tabs.length - 1 ? 'border-b' : ''}`}>
           <button
