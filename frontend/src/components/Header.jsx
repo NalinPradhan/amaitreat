@@ -9,7 +9,7 @@ export default function Header() {
     <div className="flex justify-between lg:ml-64 items-center p-4">
          {!isLargeScreen && <Mobilemenu/>}
         {/* <Mobilemenu className="lg:hidden"/> */}
-        <h1 className="text-2xl font-bold">Amaitreats </h1>
+        <h1 className="text-2xl font-bold">Home</h1>
         <Cart/>
         
     </div>

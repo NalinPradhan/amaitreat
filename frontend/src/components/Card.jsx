@@ -121,7 +121,7 @@ export default function ProductCard() {
             overlay
             sx={{ fontWeight: "md" }}
           >
-            Buff Ezay
+            Nutella Ezay
           </Link>
 
           <Typography
@@ -167,7 +167,7 @@ export default function ProductCard() {
             overlay
             sx={{ fontWeight: "md" }}
           >
-            Chicken X thingay
+            Mutton X thingay
           </Link>
 
           <Typography

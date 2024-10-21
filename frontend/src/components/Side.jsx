@@ -4,14 +4,16 @@ import Box from '@mui/joy/Box';
 import Input from '@mui/joy/Input';
 import Search from '@mui/icons-material/Search';
 import ListItemButton from '@mui/joy/ListItemButton';
+
 const logo =
   "https://res.cloudinary.com/dlyxpzd0s/image/upload/v1729445920/logo-modified_pgnxqt.png";
 export default function Header() {
     return (
       <div className="hidden lg: bg-slate-100 lg:flex lg:flex-col lg:w-64 lg:h-full lg:fixed lg:top-0 lg:left-0   ">
         <Box display="flex " justifyContent="center" alignItems="center" my={2}>
-          <img className='mt-2' src={logo} style={{ width: 80 }} alt="logo" />
+          <img className='mt-5' src={logo} style={{ width: 80 }} alt="logo" />
         </Box>
+        <Box display="flex " justifyContent="center" alignItems="center"><h1 className="text-2xl font-bold">Amaitreats </h1></Box>
         <Input
           size="sm"
           placeholder="Search"

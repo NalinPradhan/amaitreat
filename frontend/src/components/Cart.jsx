@@ -8,7 +8,7 @@ export default function Cart() {
   return (
     <div className="flex justify-end">
 
-    <Badge badgeContent={2}  >
+    <Badge  badgeContent={2} color="success">
       <Typography sx={{ fontSize: 'xl' }}><a href='https://www.google.com'>🛒</a></Typography>
     </Badge>
     </div>
