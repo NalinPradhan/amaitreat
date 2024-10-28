@@ -10,5 +10,5 @@ const productSchema = new mongoose.Schema({
   imageUrl: { type: String },  // URL to product image
 });
 
-const Product = mongoose.model('Product', productSchema);
+const Product = mongoose.model('product', productSchema);
 module.exports = Product;
