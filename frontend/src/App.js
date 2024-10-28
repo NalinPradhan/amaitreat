@@ -6,6 +6,7 @@ import Shipping from "./components/Shipping";
 import { useMediaQuery } from '@mui/material';
 import Side from "./components/Side";
 import Header from "./components/Header";
+// import C2 from "./components/c2";
 
 function App() {
   const isLargeScreen = useMediaQuery('(min-width:1024px)');
@@ -15,8 +16,10 @@ function App() {
       {isLargeScreen && <Side/>}
       <Header/>
       <ProductCard/>
+      {/* <C2/> */}
       <Index/>
       <Shipping/>
+
       
     </div>
   );
